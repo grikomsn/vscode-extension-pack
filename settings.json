@@ -1,0 +1,64 @@
+{
+  ////////////////////////////////////////////////////////////////
+  "editor.fontFamily": "'IBM Plex Mono', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  ////////////////////////////////////////////////////////////////
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  ////////////////////////////////////////////////////////////////
+  "html-css-class-completion.enableEmmetSupport": true,
+  ////////////////////////////////////////////////////////////////
+  "html.format.endWithNewline": true,
+  ////////////////////////////////////////////////////////////////
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.referencesCodeLens.enabled": false,
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.suggest.paths": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  ////////////////////////////////////////////////////////////////
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.showWelcomeMessage": false,
+  ////////////////////////////////////////////////////////////////
+  "npm.packageManager": "yarn",
+  ////////////////////////////////////////////////////////////////
+  "path-intellisense.showHiddenFiles": true,
+  ////////////////////////////////////////////////////////////////
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  ////////////////////////////////////////////////////////////////
+  "search.location": "panel",
+  ////////////////////////////////////////////////////////////////
+  "sync.gist": "",
+  ////////////////////////////////////////////////////////////////
+  "telemetry.enableTelemetry": false,
+  ////////////////////////////////////////////////////////////////
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.paths": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  ////////////////////////////////////////////////////////////////
+  "typescriptHero.imports.insertSemicolons": false,
+  "typescriptHero.imports.multiLineWrapThreshold": 80,
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
+  ////////////////////////////////////////////////////////////////
+  "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
+  "window.zoomLevel": 0,
+  ////////////////////////////////////////////////////////////////
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.activityBar.visible": true
+  ////////////////////////////////////////////////////////////////
+}

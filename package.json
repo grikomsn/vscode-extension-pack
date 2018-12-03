@@ -36,6 +36,7 @@
     "felixfbecker.php-pack",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
+    "ikappas.composer",
     "joelday.docthis",
     "jpoissonnier.vscode-styled-components",
     "mikestead.dotenv",

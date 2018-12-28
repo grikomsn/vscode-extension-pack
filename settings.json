@@ -1,64 +1,58 @@
 {
-  ////////////////////////////////////////////////////////////////
+  "better-comments.highlightPlainText": true,
+  "debug.toolBarLocation": "docked",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.find.autoFindInSelection": true,
   "editor.fontFamily": "'IBM Plex Mono', monospace",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 500,
   "editor.formatOnType": true,
+  "editor.snippetSuggestions": "none",
   "editor.tabSize": 2,
-  ////////////////////////////////////////////////////////////////
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.showSuggestionsAsSnippets": true,
+  "editor.wordBasedSuggestions": false,
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "emmet.triggerExpansionOnTab": true,
-  ////////////////////////////////////////////////////////////////
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "html-css-class-completion.enableEmmetSupport": true,
-  ////////////////////////////////////////////////////////////////
-  "html.format.endWithNewline": true,
-  ////////////////////////////////////////////////////////////////
   "javascript.preferences.quoteStyle": "single",
-  "javascript.referencesCodeLens.enabled": false,
-  "javascript.suggest.autoImports": true,
   "javascript.suggest.completeFunctionCalls": true,
-  "javascript.suggest.paths": true,
+  "javascript.suggest.names": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  ////////////////////////////////////////////////////////////////
+  "markdown.extension.showExplorer": true,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.preview.doubleClickToSwitchToEditor": false,
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.showWelcomeMessage": false,
-  ////////////////////////////////////////////////////////////////
+  "materialTheme.autoApplyIcons": true,
   "npm.packageManager": "yarn",
-  ////////////////////////////////////////////////////////////////
   "path-intellisense.showHiddenFiles": true,
-  ////////////////////////////////////////////////////////////////
   "prettier.jsxSingleQuote": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  ////////////////////////////////////////////////////////////////
-  "search.location": "panel",
-  ////////////////////////////////////////////////////////////////
-  "sync.gist": "",
-  ////////////////////////////////////////////////////////////////
-  "telemetry.enableTelemetry": false,
-  ////////////////////////////////////////////////////////////////
+  "search.quickOpen.includeSymbols": true,
+  "search.showLineNumbers": true,
+  "sync.gist": "a130e856f1a04fffb8f6b030c121072b",
+  "terminal.integrated.cursorBlinking": true,
+  "typescript.locale": "en",
   "typescript.preferences.quoteStyle": "single",
-  "typescript.suggest.autoImports": true,
   "typescript.suggest.completeFunctionCalls": true,
-  "typescript.suggest.paths": true,
+  "typescript.surveys.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  ////////////////////////////////////////////////////////////////
   "typescriptHero.imports.insertSemicolons": false,
-  "typescriptHero.imports.multiLineWrapThreshold": 80,
   "typescriptHero.imports.organizeOnSave": true,
   "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
-  ////////////////////////////////////////////////////////////////
   "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
-  "window.zoomLevel": 0,
-  ////////////////////////////////////////////////////////////////
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.enableExperiments": false,
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "workbench.startupEditor": "welcomePage",
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.activityBar.visible": true
-  ////////////////////////////////////////////////////////////////
+  "workbench.statusBar.feedback.visible": false
 }

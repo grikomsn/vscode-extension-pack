@@ -1,7 +1,7 @@
 {
   "name": "vscode-extension-pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "author": {
     "name": "Griko Nibras",
     "email": "grikomsn@gmail.com",
@@ -11,7 +11,7 @@
   "displayName": "Griko Nibras Extension Pack",
   "publisher": "grikomsn",
   "engines": {
-    "vscode": "^1.29.0"
+    "vscode": "^1.31.0"
   },
   "categories": [
     "Extension Packs"
@@ -23,25 +23,21 @@
     "austin.code-gnu-global",
     "bierner.markdown-preview-github-styles",
     "blanu.vscode-styled-jsx",
-    "bmewburn.vscode-intelephense-client",
     "christian-kohler.path-intellisense",
     "codezombiech.gitignore",
+    "Compilenix.vscode-zonefile",
     "cssho.vscode-svgviewer",
     "DavidAnson.vscode-markdownlint",
     "Equinusocio.vsc-material-theme",
     "esbenp.prettier-vscode",
-    "felixfbecker.php-debug",
-    "felixfbecker.php-intellisense",
-    "felixfbecker.php-pack",
     "formulahendry.code-runner",
-    "Gruntfuggly.todo-tree",
-    "ikappas.composer",
-    "ikappas.phpcs",
+    "grikomsn.vscode-extension-pack",
     "joelday.docthis",
     "jpoissonnier.vscode-styled-components",
     "kumar-harsh.graphql-for-vscode",
     "mikestead.dotenv",
     "ms-vscode.cpptools",
+    "ms-vsliveshare.vsliveshare",
     "octref.vetur",
     "OfHumanBondage.react-proptypes-intellisense",
     "PeterJausovec.vscode-docker",
@@ -51,10 +47,7 @@
     "richie5um2.vscode-sort-json",
     "robinbentley.sass-indented",
     "Shan.code-settings-sync",
-    "shanoor.vscode-nginx",
-    "shinnn.stylelint",
     "tombonnike.vscode-status-bar-format-toggle",
-    "tuxtina.json2yaml",
     "VisualStudioExptTeam.vscodeintellicode",
     "wmaurer.change-case",
     "yzhang.markdown-all-in-one",

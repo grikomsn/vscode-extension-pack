@@ -1,7 +1,7 @@
 {
   "name": "vscode-extension-pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": {
     "name": "Griko Nibras",
     "email": "grikomsn@gmail.com",
@@ -11,7 +11,7 @@
   "displayName": "Griko Nibras Extension Pack",
   "publisher": "grikomsn",
   "engines": {
-    "vscode": "^1.31.0"
+    "vscode": "^1.32.0"
   },
   "categories": [
     "Extension Packs"
@@ -28,21 +28,28 @@
     "Compilenix.vscode-zonefile",
     "cssho.vscode-svgviewer",
     "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "ecmel.vscode-html-css",
+    "EditorConfig.EditorConfig",
     "Equinusocio.vsc-material-theme",
     "esbenp.prettier-vscode",
     "formulahendry.code-runner",
+    "formulahendry.github-actions",
     "grikomsn.vscode-extension-pack",
     "joelday.docthis",
     "jpoissonnier.vscode-styled-components",
     "kumar-harsh.graphql-for-vscode",
     "mikestead.dotenv",
+    "mrmlnc.vscode-scss",
     "ms-vscode.cpptools",
+    "ms-vscode.vscode-typescript-tslint-plugin",
     "ms-vsliveshare.vsliveshare",
     "octref.vetur",
     "OfHumanBondage.react-proptypes-intellisense",
     "PeterJausovec.vscode-docker",
     "piotrpalarz.vscode-gitignore-generator",
     "PKief.material-icon-theme",
+    "Prisma.vscode-graphql",
     "rbbit.typescript-hero",
     "richie5um2.vscode-sort-json",
     "robinbentley.sass-indented",

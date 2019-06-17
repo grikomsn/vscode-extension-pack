@@ -2,7 +2,7 @@
   "name": "vscode-extension-pack",
   "displayName": "Griko Nibras Extension Pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "publisher": "grikomsn",
   "author": {
     "name": "Griko Nibras",
@@ -12,13 +12,14 @@
   "repository": "https://github.com/grikomsn/vscode-extension-pack.git",
   "homepage": "https://griko.dev/vscode",
   "engines": {
-    "vscode": "^1.32.0"
+    "vscode": "^1.35.0"
   },
   "categories": [
     "Extension Packs"
   ],
   "extensionPack": [
     "aaron-bond.better-comments",
+    "amiralizadeh9480.laravel-extra-intellisense",
     "AndrewRazumovsky.vscode-styled-jsx-languageserver",
     "artdiniz.quitcontrol-vscode",
     "austin.code-gnu-global",
@@ -26,7 +27,6 @@
     "blanu.vscode-styled-jsx",
     "christian-kohler.path-intellisense",
     "codezombiech.gitignore",
-    "Compilenix.vscode-zonefile",
     "cssho.vscode-svgviewer",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
@@ -34,11 +34,15 @@
     "EditorConfig.EditorConfig",
     "Equinusocio.vsc-material-theme",
     "esbenp.prettier-vscode",
+    "felixfbecker.php-debug",
+    "felixfbecker.php-intellisense",
+    "felixfbecker.php-pack",
     "formulahendry.code-runner",
-    "formulahendry.github-actions",
     "grikomsn.vscode-extension-pack",
+    "ikappas.phpcs",
     "joelday.docthis",
     "jpoissonnier.vscode-styled-components",
+    "junstyle.php-cs-fixer",
     "kumar-harsh.graphql-for-vscode",
     "mikestead.dotenv",
     "mrmlnc.vscode-scss",

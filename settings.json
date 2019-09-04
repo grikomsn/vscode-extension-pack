@@ -1,13 +1,31 @@
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "better-comments.highlightPlainText": true,
   "debug.toolBarLocation": "docked",
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "'Dank Mono', Consolas, monospace",
-  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
   "editor.fontWeight": "300",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 500,
+  "editor.formatOnType": true,
+  "editor.largeFileOptimizations": false,
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "inline",
   "editor.suggestSelection": "first",
@@ -17,13 +35,13 @@
   },
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
   "eslint.packageManager": "yarn",
   "extensions.showRecommendationsOnlyOnDemand": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "javascript.preferences.quoteStyle": "single",
-  "javascript.suggest.completeFunctionCalls": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.githubCompatibility": true,
@@ -44,19 +62,23 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.windows": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "tslint.jsEnable": true,
+  "tslint.packageManager": "yarn",
   "typescript.locale": "en",
   "typescript.preferences.quoteStyle": "single",
-  "typescript.suggest.completeFunctionCalls": true,
   "typescript.surveys.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescriptHero.imports.insertSemicolons": false,
   "typescriptHero.imports.organizeOnSave": true,
   "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
   "update.showReleaseNotes": false,
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
   "vscodeGoogleTranslate.preferredLanguage": "en",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
+  "window.zoomLevel": 0,
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme"

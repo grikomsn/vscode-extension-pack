@@ -2,7 +2,7 @@
   "name": "vscode-extension-pack",
   "displayName": "Griko Nibras Extension Pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "publisher": "grikomsn",
   "author": "Griko Nibras <git@griko.id>",
   "repository": "https://github.com/grikomsn/vscode-extension-pack.git",
@@ -69,7 +69,7 @@
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1A202C",
-    "theme": "light"
+    "theme": "dark"
   },
   "license": "MIT"
 }

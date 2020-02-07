@@ -1,18 +1,36 @@
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD041 -->
+
+[![vscode-extension-pack](./header.png)](.)
 
 <div align="center">
 
-# vscode-extension-pack ✨
+[![version](https://badgen.net/vs-marketplace/v/grikomsn.vscode-extension-pack)][self]
+[![installs](https://badgen.net/vs-marketplace/i/grikomsn.vscode-extension-pack)][self]
+[![downloads](https://badgen.net/vs-marketplace/d/grikomsn.vscode-extension-pack)][self]
+[![license](https://badgen.net/github/license/grikomsn/vscode-extension-pack)][license]
 
-All my installed VS Code extension, now available as an extension pack.
+[![config macos](https://badgen.net/badge/macos/settings.json/black)](./settings.macos.json)
+[![config macos](https://badgen.net/badge/windows/settings.json/black)](./settings.windows.json)
 
-![tag](https://badgen.net/github/tag/grikomsn/vscode-extension-pack)
-![last-commit](https://badgen.net/github/last-commit/grikomsn/vscode-extension-pack)
-[![Greenkeeper badge](https://badges.greenkeeper.io/grikomsn/vscode-extension-pack.svg)](https://greenkeeper.io)
-![license](https://badgen.net/github/license/grikomsn/vscode-extension-pack)
+</div>
 
 ---
 
-View [settings.json](settings.json) for using my configuration. Or view [package.json](package.json) for the full list.
+## Requirements
 
-</div>
+Make sure these packages are globally installed so that the extensions can work as intended:
+
+```sh
+# using npm
+npm -g i eslint prettier stylelint typescript
+
+# using yarn
+yarn global add eslint prettier stylelint typescript
+```
+
+## License
+
+[Copyright (c) 2020 Griko Nibras](./LICENSE)
+
+[self]: https://marketplace.visualstudio.com/items?itemName=grikomsn.vscode-extension-pack
+[license]: https://marketplace.visualstudio.com/items/grikomsn.vscode-extension-pack/license

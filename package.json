@@ -2,17 +2,16 @@
   "name": "vscode-extension-pack",
   "displayName": "Griko Nibras Extension Pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "publisher": "grikomsn",
-  "author": {
-    "name": "Griko Nibras",
-    "email": "grikomsn@gmail.com",
-    "url": "https://griko.id"
-  },
+  "author": "Griko Nibras <git@griko.id>",
   "repository": "https://github.com/grikomsn/vscode-extension-pack.git",
   "homepage": "https://griko.dev/vscode",
+  "scripts": {
+    "regenerate": "node regerate.js"
+  },
   "engines": {
-    "vscode": "^1.36.0"
+    "vscode": "^1.42.0"
   },
   "categories": [
     "Extension Packs"
@@ -69,8 +68,8 @@
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#E5E655",
+    "color": "#1A202C",
     "theme": "light"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "MIT"
 }

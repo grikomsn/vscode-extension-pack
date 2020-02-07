@@ -1,0 +1,96 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "better-comments.highlightPlainText": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "'Roboto Mono', Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.largeFileOptimizations": false,
+  "editor.lineHeight": 28,
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.packageManager": "yarn",
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.associations": {
+    ".all-contributorsrc": "jsonc"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.showWelcomeMessage": false,
+  "npm.packageManager": "yarn",
+  "path-intellisense.showHiddenFiles": true,
+  "prettier.packageManager": "yarn",
+  "prettier.resolveGlobalModules": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "python.dataScience.magicCommandsAsComments": true,
+  "python.dataScience.themeMatplotlibPlots": true,
+  "python.jediEnabled": false,
+  "search.quickOpen.includeSymbols": true,
+  "search.showLineNumbers": true,
+  "stylelint.enable": false,
+  "stylelint.packageManager": "yarn",
+  "tailwindCSS.emmetCompletions": true,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.inheritEnv": false,
+  "typescript.locale": "en",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.surveys.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescriptHero.imports.insertSemicolons": false,
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
+  "update.showReleaseNotes": false,
+  "vscodeGoogleTranslate.preferredLanguage": "en",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Slack Theme Dark Mode",
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "material-icon-theme"
+}

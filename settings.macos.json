@@ -1,5 +1,11 @@
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -14,18 +20,22 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "better-comments.highlightPlainText": true,
-  "debug.toolBarLocation": "docked",
   "editor.cursorBlinking": "smooth",
-  "editor.fontFamily": "'Dank Mono', Consolas, monospace",
+  "editor.fontFamily": "'Roboto Mono', Consolas, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
-  "editor.fontWeight": "300",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 500,
   "editor.formatOnType": true,
   "editor.largeFileOptimizations": false,
+  "editor.lineHeight": 28,
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "inline",
   "editor.suggestSelection": "first",
@@ -34,10 +44,11 @@
     "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.lintTask.enable": true,
   "eslint.packageManager": "yarn",
   "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.associations": {
+    ".all-contributorsrc": "jsonc"
+  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -51,18 +62,22 @@
   "material-icon-theme.showWelcomeMessage": false,
   "npm.packageManager": "yarn",
   "path-intellisense.showHiddenFiles": true,
-  "prettier.jsxSingleQuote": true,
+  "prettier.packageManager": "yarn",
+  "prettier.resolveGlobalModules": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
+  "python.dataScience.magicCommandsAsComments": true,
+  "python.dataScience.themeMatplotlibPlots": true,
+  "python.jediEnabled": false,
   "search.quickOpen.includeSymbols": true,
   "search.showLineNumbers": true,
+  "stylelint.enable": false,
+  "stylelint.packageManager": "yarn",
+  "tailwindCSS.emmetCompletions": true,
   "telemetry.enableTelemetry": false,
-  "terminal.external.windowsExec": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.shell.windows": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "tslint.packageManager": "yarn",
+  "terminal.integrated.inheritEnv": false,
   "typescript.locale": "en",
   "typescript.preferences.quoteStyle": "single",
   "typescript.surveys.enabled": false,
@@ -71,15 +86,11 @@
   "typescriptHero.imports.organizeOnSave": true,
   "typescriptHero.imports.organizeSortsByFirstSpecifier": true,
   "update.showReleaseNotes": false,
-  "vetur.grammar.customBlocks": {
-    "page-query": "graphql",
-    "static-query": "graphql"
-  },
   "vscodeGoogleTranslate.preferredLanguage": "en",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Slack Theme Dark Mode",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme"
 }

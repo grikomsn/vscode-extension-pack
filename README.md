@@ -9,8 +9,9 @@
 [![downloads](https://badgen.net/vs-marketplace/d/grikomsn.vscode-extension-pack)][self]
 [![license](https://badgen.net/github/license/grikomsn/vscode-extension-pack)][license]
 
+[![config linux](https://badgen.net/badge/linux/settings.json/black)](./settings.linux.json)
 [![config macos](https://badgen.net/badge/macos/settings.json/black)](./settings.macos.json)
-[![config macos](https://badgen.net/badge/windows/settings.json/black)](./settings.windows.json)
+[![config windows](https://badgen.net/badge/windows/settings.json/black)](./settings.windows.json)
 
 </div>
 

@@ -4,6 +4,7 @@ const { join } = require("path");
 const { promisify } = require("util");
 
 const packageJson = require("./package.json");
+const excludeJson = require("./exclude-extensions.json");
 
 const isWin = process.platform === "win32";
 const processName = isWin ? "code-insiders.cmd" : "code-insiders";
@@ -14,7 +15,7 @@ const command = `${processName} --list-extensions`;
   const extensionPack = stdout
     .trim()
     .split("\n")
-    .filter((e) => !/grikomsn\.vscode-extension-pack/.test(e));
+    .filter((ext) => !excludeJson.some((exclude) => exclude === ext));
 
   const newPackageJson = { ...packageJson, extensionPack };
   await promisify(writeFile)(

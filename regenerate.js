@@ -7,7 +7,7 @@ const packageJson = require("./package.json");
 const excludeJson = require("./exclude-extensions.json");
 
 const isWin = process.platform === "win32";
-const processName = isWin ? "code-insiders.cmd" : "code-insiders";
+const processName = isWin ? "code.cmd" : "code";
 const command = `${processName} --list-extensions`;
 
 (async () => {

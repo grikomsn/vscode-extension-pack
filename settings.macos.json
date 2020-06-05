@@ -29,7 +29,6 @@
   "[xml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "better-comments.highlightPlainText": true,
   "deno.enable": false,
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "'JetBrains Mono', Consolas, monospace",
@@ -90,12 +89,16 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.inheritEnv": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#C90",
+    "rulerColour": "#630"
+  },
   "typescript.locale": "en",
   "typescript.preferences.quoteStyle": "single",
   "typescript.surveys.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
-  "vscodeGoogleTranslate.preferredLanguage": "en",
+  "vscodeGoogleTranslate.preferredLanguage": "id",
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
   "window.zoomLevel": 0,

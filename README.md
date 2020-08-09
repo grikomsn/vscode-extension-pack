@@ -9,13 +9,15 @@
 [![downloads](https://badgen.net/vs-marketplace/d/grikomsn.vscode-extension-pack)][self]
 [![license](https://badgen.net/github/license/grikomsn/vscode-extension-pack)][license]
 
-[![config linux](https://badgen.net/badge/linux/settings.json/black)](./settings.linux.json)
-[![config macos](https://badgen.net/badge/macos/settings.json/black)](./settings.macos.json)
-[![config windows](https://badgen.net/badge/windows/settings.json/black)](./settings.windows.json)
+[![config linux](https://badgen.net/badge/linux/settings.json/black)](./settings.json)
+[![config macos](https://badgen.net/badge/macos/settings.json/black)](./settings.json)
+[![config windows](https://badgen.net/badge/windows/settings.json/black)](./settings.json)
 
 </div>
 
 ---
+
+> Starting on version 3.0.0, this extension will inherit extensions from [SurabayaJS Extension Pack](https://link.surabayajs.org/vscode).
 
 ## Requirements
 
@@ -23,10 +25,10 @@ Make sure these packages are globally installed so that the extensions can work 
 
 ```sh
 # using npm
-npm -g i eslint prettier stylelint typescript
+npm -g i eslint prettier typescript
 
 # using yarn
-yarn global add eslint prettier stylelint typescript
+yarn global add eslint prettier typescript
 ```
 
 ## License

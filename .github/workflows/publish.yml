@@ -26,6 +26,4 @@ jobs:
 
       - name: Publish extension
         if: success()
-        run: yarn publish
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: yarn vsce publish -p ${{ secrets.VSCE_PAT }}

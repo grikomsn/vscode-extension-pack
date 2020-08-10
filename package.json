@@ -2,17 +2,18 @@
   "displayName": "Griko Nibras Extension Pack",
   "name": "vscode-extension-pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "repository": "https://github.com/grikomsn/vscode-extension-pack.git",
   "author": "Griko Nibras <git@griko.id>",
   "publisher": "grikomsn",
   "homepage": "https://griko.dev/vscode",
   "scripts": {
     "regenerate": "node regenerate",
-    "publish": "vsce publish"
+    "publish": "vsce publish --yarn"
   },
   "devDependencies": {
-    "cross-fetch": "^3.0.5"
+    "cross-fetch": "^3.0.5",
+    "vsce": "^1.77.0"
   },
   "engines": {
     "vscode": "^1.47.0"

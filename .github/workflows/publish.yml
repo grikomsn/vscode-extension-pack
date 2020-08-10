@@ -1,0 +1,31 @@
+name: Publish to marketplace
+
+on:
+  push:
+    tags: ["v*"]
+  release:
+    types:
+      - published
+      - released
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Publish extension
+        if: success()
+        run: yarn publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

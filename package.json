@@ -2,7 +2,7 @@
   "displayName": "Griko Nibras Extension Pack",
   "name": "vscode-extension-pack",
   "description": "All my installed VS Code extension, now available as an extension pack ✨",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "repository": "https://github.com/grikomsn/vscode-extension-pack.git",
   "author": "Griko Nibras <git@griko.id>",
   "publisher": "grikomsn",
@@ -11,29 +11,35 @@
     "regenerate": "node regenerate"
   },
   "devDependencies": {
-    "cross-fetch": "^3.0.5",
-    "vsce": "^1.77.0"
+    "cross-fetch": "^3.0.6",
+    "vsce": "^1.83.0"
   },
   "engines": {
-    "vscode": "^1.47.0"
+    "vscode": "^1.52.0"
   },
   "categories": [
     "Extension Packs"
   ],
   "extensionPack": [
+    "aaron-bond.better-comments",
+    "blanu.vscode-styled-jsx",
     "bradlc.vscode-tailwindcss",
     "denoland.vscode-deno",
+    "Divlo.vscode-styled-jsx-languageserver",
+    "EditorConfig.EditorConfig",
+    "foxundermoon.shell-format",
     "funkyremi.vscode-google-translate",
-    "Gruntfuggly.todo-tree",
-    "heybourn.headwind",
+    "GraphQL.vscode-graphql",
     "icrawl.discord-vscode",
     "jpoissonnier.vscode-styled-components",
     "ms-azuretools.vscode-docker",
     "ms-python.python",
+    "ms-toolsai.jupyter",
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
     "RandomFractalsInc.vscode-data-preview",
-    "redhat.vscode-yaml",
+    "rust-lang.rust",
     "surabayajs.surabayajs-extension-pack",
     "vsls-contrib.gistfs",
     "WakaTime.vscode-wakatime"

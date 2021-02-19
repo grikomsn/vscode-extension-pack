@@ -9,10 +9,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -30,6 +30,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "deno.enable": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.columnSelection": false,
   "editor.cursorBlinking": "smooth",
   "editor.fontFamily": "'JetBrains Mono', Consolas, monospace",
   "editor.fontLigatures": false,
@@ -39,7 +41,7 @@
   "editor.formatOnType": true,
   "editor.largeFileOptimizations": false,
   "editor.lineHeight": 24,
-  "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "inline",
   "editor.suggest.insertMode": "replace",
@@ -49,8 +51,10 @@
     "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
   "eslint.packageManager": "yarn",
-  "extensions.showRecommendationsOnlyOnDemand": true,
+  "extensions.ignoreRecommendations": true,
   "files.associations": {
     ".all-contributorsrc": "jsonc"
   },
@@ -59,13 +63,11 @@
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.views.compare.location": "scm",
-  "gitlens.views.fileHistory.location": "scm",
-  "gitlens.views.lineHistory.location": "scm",
   "gitlens.views.repositories.files.layout": "list",
-  "gitlens.views.repositories.location": "scm",
-  "gitlens.views.search.location": "scm",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.magicCommandsAsComments": true,
+  "jupyter.themeMatplotlibPlots": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
   "markdown.extension.toc.levels": "2..6",
   "markdown.extension.toc.slugifyMode": "github",
@@ -74,33 +76,35 @@
   "material-icon-theme.showWelcomeMessage": false,
   "npm.packageManager": "yarn",
   "path-intellisense.showHiddenFiles": true,
+  "phpfmt.enable_auto_align": true,
   "prettier.packageManager": "yarn",
   "prettier.resolveGlobalModules": true,
-  "python.dataScience.askForKernelRestart": false,
-  "python.dataScience.magicCommandsAsComments": true,
-  "python.dataScience.themeMatplotlibPlots": true,
   "python.jediEnabled": false,
   "python.languageServer": "Microsoft",
+  "python.showStartPage": false,
   "search.quickOpen.includeSymbols": true,
   "search.showLineNumbers": true,
+  "sort-imports.on-save": true,
+  "standard.enable": false,
   "stylelint.enable": false,
   "tailwindCSS.emmetCompletions": true,
   "telemetry.enableTelemetry": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.inheritEnv": false,
   "todo-tree.highlights.defaultHighlight": {
     "foreground": "#C90",
     "rulerColour": "#630"
   },
+  "todo-tree.tree.showScanModeButton": false,
   "typescript.locale": "en",
-  "typescript.preferences.quoteStyle": "single",
   "typescript.surveys.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
+  "vscodeGoogleTranslate.HoverTranslations": false,
   "vscodeGoogleTranslate.preferredLanguage": "Indonesian",
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "window.title": "${activeEditorLong}${separator}${rootName} ${dirty}",
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "GitHub Dark",
